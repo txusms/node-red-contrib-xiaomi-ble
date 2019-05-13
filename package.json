@@ -4,7 +4,7 @@
 	"email": "txusms.labs@gmail.com"
   },
   "dependencies": {
-    "@abandoneware/noble": "^1.9.2-2"
+    "@abandonware/noble": "^1.9.2-2"
   },
   "description": "Xiaomi Bluetooth4 (BLE) sensors (node 10)",
   "devDependencies": {},
