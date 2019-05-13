@@ -128,7 +128,7 @@ module.exports = function(RED) {
 					clearTimeout(disconnectTimeout);
 					return;
 				}
-				
+				msg.peripheral = peripheral;
 				if (peripheral.advertisement.serviceUuids.indexOf('fe95') >= 0) {
 					mifloraRead(peripheral, msg, send);
 				} else {
