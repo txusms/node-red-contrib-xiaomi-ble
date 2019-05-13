@@ -1,7 +1,7 @@
 module.exports = function(RED) {
     "use strict";
 
-    var noble = require('noble');
+    var noble = require('@abandoneware/noble');
 	
     function XiaomiBleNode(config) {
         RED.nodes.createNode(this, config);
